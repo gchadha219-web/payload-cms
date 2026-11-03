@@ -172,7 +172,6 @@ export interface Media {
 export interface Banner {
   id: number;
   title: string;
-  subtitle?: string | null;
   description?: string | null;
   desktopImage: number | Media;
   mobileImage?: (number | null) | Media;
@@ -314,7 +313,6 @@ export interface MediaSelect<T extends boolean = true> {
  */
 export interface BannersSelect<T extends boolean = true> {
   title?: T;
-  subtitle?: T;
   description?: T;
   desktopImage?: T;
   mobileImage?: T;

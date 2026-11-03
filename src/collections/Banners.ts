@@ -20,10 +20,6 @@ export const Banners: CollectionConfig = {
       required: true,
     },
     {
-      name: 'subtitle',
-      type: 'text',
-    },
-    {
       name: 'description',
       type: 'textarea',
     },
